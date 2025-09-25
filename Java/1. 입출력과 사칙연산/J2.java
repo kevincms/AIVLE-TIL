@@ -14,11 +14,19 @@ public class J2 {
         // case 2
         // 자료형.parse자료형()으로 자료형을 바꿀 수 있음.
 
-        String input1, input2;
-        input1=sc.next();
-        input2=sc.next();
-        a=Integer.parseInt(input1);
-        b=Integer.parseInt(input2);
+        // String input1, input2;
+        // input1=sc.next();
+        // input2=sc.next();
+        // a=Integer.parseInt(input1);
+        // b=Integer.parseInt(input2);
+
+        // case 3
+        // nextLine 으로 한 줄을 입력 받고 그 문자열을 쪼갤 수 있음.
+        
+        String[] input;
+        input = sc.nextLine().split(" ");
+        a=Integer.parseInt(input[0]);
+        b=Integer.parseInt(input[1]);
 
         System.out.println(a+b);
     }

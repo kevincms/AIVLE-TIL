@@ -1,4 +1,16 @@
+import java.util.Scanner;
 
+public class J3 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a, b;
+        a=sc.nextInt();
+        b=sc.nextInt();
+        System.out.println(a-b);
+    }
+}
+
+/*
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.InputStreamReader;
@@ -32,3 +44,4 @@ public class J3 {
         bw.close();
     }
 }
+*/

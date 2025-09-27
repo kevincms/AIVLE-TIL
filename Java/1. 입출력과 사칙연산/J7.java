@@ -5,6 +5,14 @@ public class J7 {
         Scanner sc = new Scanner(System.in);
         String str;
         str=sc.next();
-        System.out.print(str+"??!");
+
+        // case 1
+        // System.out.print(str+"??!");
+
+        // case 2
+        // System.out.printf("%s??!",str);
+
+        // case 3
+        System.out.print("%s??!".formatted(str));
     }
 }

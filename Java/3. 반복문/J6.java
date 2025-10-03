@@ -1,3 +1,28 @@
+// https://velog.io/@xav/Java-String-StringBuffer-StringBuilder
+
+import java.io.*;
+import java.util.Scanner;
+
+public class J6 {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+        int n, a, b;
+        n = Integer.parseInt(br.readLine());
+        String[] str;
+        for (int i = 0; i < n; i++) {
+            str=br.readLine().split(" ");
+            a = Integer.parseInt(str[0]);
+            b = Integer.parseInt(str[1]);
+            bw.write(String.valueOf(a+b)+"\n");
+        }
+        br.close();
+        bw.flush();
+        bw.close();
+    }
+}
+
+/*
 import java.io.*;
 import java.util.Scanner;
 
@@ -18,7 +43,7 @@ public class J6 {
         System.out.print(sb);
     }
 }
-
+ */
 /*
 import java.util.Scanner;
 
